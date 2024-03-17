@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Details</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="pokemon-container">
+      <form id="pokemon-form">
+        <label for="pokemon-select">Choisissez un Pokémon :</label>
+        <select id="pokemon-select" name="pokemon">
+          <option value="pikachu">Pikachu</option>
+          <option value="charmander">Charmander</option>
+          <option value="bulbasaur">Bulbasaur</option>
+          <option value="squirtle">Squirtle</option>
+        </select>
+        <button type="submit">Afficher</button>
+      </form>
+      <h1 id="pokemon-name">Nom du Pokémon</h1>
+      <img id="pokemon-image" src="" alt="Image du Pokémon" />
+      <p id="pokemon-type">Type:</p>
+      <div id="pokemon-details">
+        <p id="pokemon-weight">Poids:</p>
+        <p id="pokemon-height">Taille:</p>
+        <p id="pokemon-abilities">Capacités:</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
